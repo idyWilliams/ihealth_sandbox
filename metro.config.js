@@ -3,7 +3,9 @@ const { getDefaultConfig } = require("expo/metro-config");
 module.exports = (() => {
   const config = getDefaultConfig(__dirname);
 
-  const { transformer, resolver } = config;
+  const { transformer, watchFolders, resolver } = config;
+
+  watchFolders = [path.resolve(__dirname, "submodules/ihealth_homepage")];
 
   config.transformer = {
     ...transformer,

@@ -1,0 +1,4 @@
+[submodule "submodules/ihealth_homepage"]
+  path = submodules/ihealth_homepage
+  url = https://github.com/Hezhykeyhel/ihealth_homepage.git
+  branch = homepage_submodule

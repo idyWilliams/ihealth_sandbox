@@ -1,4 +1,4 @@
-import { AboutUs, HomePage } from "@/app/screen";
+import { AboutPage, HomePage } from "@/app/screen";
 import MainBottomTabs, { TabType } from "@/components/MainBottomtabs";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import React from "react";
@@ -8,7 +8,7 @@ const Tab = createMaterialBottomTabNavigator<BottomTabsRoute>();
 
 type TabRoute = {
   HomePage: undefined;
-  AboutUs: undefined;
+  AboutPage: undefined;
 };
 
 const tabList: TabType<TabRoute>[] = [
@@ -20,9 +20,9 @@ const tabList: TabType<TabRoute>[] = [
     tabText: "Home",
   },
   {
-    component: AboutUs,
+    component: AboutPage,
     inactiveTabIcon: "profile_inactive",
-    name: "AboutUs",
+    name: "AboutPage",
     svgIconName: "profile_active",
     tabText: "About Us",
   },

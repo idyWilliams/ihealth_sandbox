@@ -1,2 +1,2 @@
 export { default as HomePage } from "../../submodules/ihealth_homepage/homepage";
-export { default as AboutUs } from "./aboutus/aboutus";
+export { default as AboutPage } from "../../submodules/ihealth_about/aboutpage";

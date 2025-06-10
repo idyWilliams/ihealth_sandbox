@@ -5,6 +5,7 @@ export const palette = {
   blackTint: "#696977",
   error: "#E25825",
   textTint: "rgba(0,0,0,0.5)",
+  primary: "#07235C",
   white: "#FFF",
   toggleBackgroundSkin: "#FFF",
   greyBorder: "#E6E6E6",

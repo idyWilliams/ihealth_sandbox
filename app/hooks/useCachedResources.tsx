@@ -11,7 +11,7 @@ export default function useCachedResources() {
     async function loadResourcesAndDataAsync() {
       try {
         SplashScreen.preventAutoHideAsync();
-
+        await new Promise((resolve) => setTimeout(resolve, 2000));
         await Font.loadAsync({
           ...FontAwesome.font,
           "harmonia-bd": require("@/assets/fonts/HarmoniaSansProCyr-Bold.ttf"),

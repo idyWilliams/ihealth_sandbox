@@ -6,6 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import useCachedResources from "@/app/hooks/useCachedResources";
 import Navigation from "./app/navigation";
 import theme from "./constants/Colors";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -16,12 +17,14 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <SafeAreaProvider>
+      <GestureHandlerRootView>
         <BottomSheetModalProvider>
-          <Navigation />
+          <SafeAreaProvider>
+            <Navigation />
+          </SafeAreaProvider>
         </BottomSheetModalProvider>
-      </SafeAreaProvider>
-      <StatusBar style="dark" />
+        <StatusBar style="dark" />
+      </GestureHandlerRootView>
     </ThemeProvider>
   );
 }

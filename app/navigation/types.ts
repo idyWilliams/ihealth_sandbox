@@ -4,7 +4,7 @@ export type AppNavRoutes = {
 };
 export type BottomTabsRoute = {
   HomePage: undefined;
-  AboutPage: undefined;
+  AboutUs: undefined;
 };
 
 export type StackParamsList = AppNavRoutes;

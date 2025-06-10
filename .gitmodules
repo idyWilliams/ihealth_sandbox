@@ -2,6 +2,3 @@
   path = submodules/ihealth_homepage
   url = https://github.com/Hezhykeyhel/ihealth_homepage.git
   branch = homepage_submodule
-[submodule "submodules/ihealth_about"]
-	path = submodules/ihealth_about
-	url = https://github.com/idyWilliams/ihealth_about.git

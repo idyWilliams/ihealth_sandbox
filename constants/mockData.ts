@@ -103,7 +103,6 @@ export const diseases = [
   { name: "Systemic Lupus Erythematosus (SLE)" },
   { name: "Systemic Sclerosis" },
   { name: "Ulcerative Colitis" },
-  { name: "- Other -" },
 ];
 export const specialities = [
   { name: "Electrodessication" },

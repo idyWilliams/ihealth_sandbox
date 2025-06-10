@@ -16,6 +16,13 @@ import search from "@/assets/icons/search.svg";
 import chat from "@/assets/icons/message-square.svg";
 import send from "@/assets/icons/send.svg";
 import arrowLeft from "@/assets/icons/arrow-left.svg";
+import check from "@/assets/icons/check.svg";
+import close from "@/assets/icons/close.svg";
+import twitter from "@/assets/icons/twitter.svg";
+import linkedin from "@/assets/icons/linkedin.svg";
+import mission from "@/assets/icons/mission.svg";
+import vision from "@/assets/icons/vision.svg";
+import values from "@/assets/icons/values.svg";
 
 export const ICONS = {
   home_active,
@@ -27,6 +34,13 @@ export const ICONS = {
   chat,
   search,
   send,
+  check,
+  close,
+  twitter,
+  linkedin,
+  mission,
+  vision,
+  values,
 };
 
 export type IconName = keyof typeof ICONS;

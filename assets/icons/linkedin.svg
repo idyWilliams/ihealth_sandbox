@@ -1,0 +1,18 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M6.5 9C7.60457 9 8.5 8.10457 8.5 7C8.5 5.89543 7.60457 5 6.5 5C5.39543 5 4.5 5.89543 4.5 7C4.5 8.10457 5.39543 9 6.5 9Z"
+    fill="currentColor"
+  />
+  <rect
+    x="4.5"
+    y="10"
+    width="4"
+    height="9"
+    rx="1"
+    fill="currentColor"
+  />
+  <path
+    d="M10.5 10H14.06C15.44 10 16.5 11.06 16.5 12.44V19H12.5V13.5C12.5 13.22 12.28 13 12 13C11.72 13 11.5 13.22 11.5 13.5V19H10.5V10Z"
+    fill="currentColor"
+  />
+</svg>

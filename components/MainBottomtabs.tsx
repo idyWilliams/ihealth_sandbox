@@ -1,5 +1,3 @@
-/* eslint-disable no-nested-ternary */
-import theme from "@/constants/Colors";
 import {
   MaterialBottomTabNavigationEventMap,
   MaterialBottomTabNavigationOptions,
@@ -71,7 +69,7 @@ function MainBottomTabs<T extends ParamListBase>({
           name={tab.name}
           options={{
             tabBarIcon: ({ focused }) => (
-              <Box alignItems="center" zIndex={-3} justifyContent="center">
+              <Box alignItems="center" zIndex={999} justifyContent="center">
                 <Box
                   alignItems="center"
                   backgroundColor="white"
@@ -84,7 +82,7 @@ function MainBottomTabs<T extends ParamListBase>({
                   />
                   <Text
                     color={focused ? "black" : "textTint"}
-                    marginTop="md"
+                    marginTop="xs"
                     variant="bold12"
                   >
                     {tab.tabText}

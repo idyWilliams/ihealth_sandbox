@@ -11,12 +11,22 @@ import home_inactive from "@/assets/icons/home-inactive.svg";
 import home_active from "@/assets/icons/home.svg";
 import profile_active from "@/assets/icons/profile_active.svg";
 import profile_inactive from "@/assets/icons/profile_inactive.svg";
+import bell from "@/assets/icons/bell.svg";
+import search from "@/assets/icons/search.svg";
+import chat from "@/assets/icons/message-square.svg";
+import send from "@/assets/icons/send.svg";
+import arrowLeft from "@/assets/icons/arrow-left.svg";
 
 export const ICONS = {
   home_active,
   home_inactive,
   profile_active,
   profile_inactive,
+  arrowLeft,
+  bell,
+  chat,
+  search,
+  send,
 };
 
 export type IconName = keyof typeof ICONS;
